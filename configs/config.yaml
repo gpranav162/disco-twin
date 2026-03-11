@@ -1,0 +1,20 @@
+# Disruption Detection Hyperparameters
+autoencoder:
+  epochs: 1000
+  batch_size: 128
+  learning_rate: 0.0001
+  window_size: 14
+
+ocsvm:
+  nu: 0.025
+  gamma: 100.0
+
+# LSTM Models
+classifier:
+  epochs: 20
+  batch_size: 32
+
+ttr_predictor:
+  epochs: 20
+  batch_size: 16
+  l1_reg: 0.001
